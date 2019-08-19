@@ -20,7 +20,9 @@ The project uses libraries from bootstrap (css and js). Aside from that, there a
 
 # Screenshots
 ![Screenshot homepage](https://raw.githubusercontent.com/fescobar15/Personal-Webpage-FelipeEscobar/master/images/ss1.PNG)
+
 ![Screenshot about page](https://raw.githubusercontent.com/fescobar15/Personal-Webpage-FelipeEscobar/master/images/ss2.PNG)
+
 ![Sreenshot contact page](https://raw.githubusercontent.com/fescobar15/Personal-Webpage-FelipeEscobar/master/images/ss3.PNG)
 
 # License
