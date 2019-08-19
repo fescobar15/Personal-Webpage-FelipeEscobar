@@ -1,0 +1,115 @@
+/*Change the box model*/
+*{
+	box-sizing: border-box;
+}
+
+/*Center h1 with class title, set color to black and make the size responsive*/
+h1.title{
+	font-size: 7vw;
+	text-align: center;
+	color: black;
+	vertical-align: middle;
+}
+
+/*Set background color, height and text align for the div containing the main title*/
+.title {
+	background-color: #6DF1A9;
+	height: 10vw;
+	text-align: center;
+}
+
+/*Set style for the navigation bar*/
+.navbar {
+  overflow: hidden;
+  background-color: #0AA34F;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*Set style for the navigation bar links*/
+.navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Set style when the user hovers over a link in the navigation bar*/
+.navbar a:hover {
+  background: #6DF1A9;
+}
+
+/*Center text for this grid configuration*/
+.col-sm-4{
+	text-align: center;
+}
+
+/*Make images responsive*/
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*Make images with class small responsive*/
+img.small {
+	max-width: 50%;
+	max-height: 65%;
+	min-width: 30%;
+	min-height: 45%;
+}
+
+/*Set style for pictures with polaroid effect*/
+div.polaroid {
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+/*Set style for divs with class container*/
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/*Align text to the left for information sections in About page*/
+.info {
+	text-align: left;
+}
+
+/*Set background color for odd sections*/
+.odd {
+	background-color: #2CA5DF;
+}
+
+/*Set background color for even sections*/
+.even {
+	background-color: #BBE3F5;
+}
+
+/*Set background color for footer*/
+.footer {
+	background-color: #6DF1A9;
+}
+
+/*Set the footer in contact page to be at the bottom of the screen*/
+#footer-contact {
+	position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+/*Set style for the message about contact info*/
+.contact {
+	margin-top: 100px;
+	text-align: center;
+}
+
+/*Set background color for contact page*/
+#full-background {
+	background-color: #B8DEE8;
+}

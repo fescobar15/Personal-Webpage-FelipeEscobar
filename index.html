@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--Meta data and title-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Felipe Escobar</title>
+		<meta name="author" content="Felipe Escobar">
+		<meta name="description" content="Personal website wih basic info about Felipe Escobar">
+		<!--Links to bootsrap css and js-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!--Link to the styles file-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!--Favicons-->
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+		<!--Link to the javascript file-->
+		<script src="script.js"></script>
+	</head>
+	<!--Body-->
+	<body>
+		<!--Navigation bar at the top of the page-->
+		<div class="barra">
+			<nav class="navbar navbar-expand-sm navbar-light bg-light">
+				<!--Title for the navigation bar-->
+				<a class="navbar-brand" href="index.html">Felipe Escobar Avila</a>
+				<!--Button for mobiles-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<!--Options for the navigation bar-->
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="academic.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!--Main title of the page-->
+		<div class="title">
+			<h1 class="title">
+			Felipe Escobar Avila
+			</h1>
+		</div>
+		<br>
+		<!--Basic facts about Felipe-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>
+					Ocupation
+					</h3>
+					<p>
+						Student at Universidad de los Andes
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>
+					Residence
+					</h3>
+					<p>
+						Bogotá, Colombia
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>
+					Birth date
+					</h3>
+					<!--Birth date and use of a script to calculate current age-->
+					<p>
+						April 15th, 1997 (<span id="age"></span><script>setAge();</script> years)
+					</p>
+				</div>
+			</div>
+			<br>
+			<!--Welcome message and current status-->
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>
+					Hi there! Welcome to my personal website.
+					</h3>
+					<p>
+						I am currently studying Industrial Engineering and Computer Science, expecting to graduate in early 2021.
+					</p>
+				</div>
+			</div>
+			<br>
+			<!--Felipe's interests section. Each one with a picture-->
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>
+					My Interests
+					</h3>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="./images/tech.jpeg" alt="Visual representation of technology">
+					<h5>
+					Technology
+					</h5>
+				</div>
+				<div class="col-sm-4">
+					<img src="./images/sports.jpg" alt="Multiple sports objects">
+					<h5>
+					Sports
+					</h5>
+				</div>
+				<div class="col-sm-4">
+					<img src="./images/finance.jpg" alt="Visual representation of finance">
+					<h5>
+					Finance
+					</h5>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="./images/f1.jpg" alt="Two F1 cars racing">
+					<h5>
+					Racing
+					</h5>
+				</div>
+				<div class="col-sm-4">
+					<img src="./images/travel.jpg" alt="Airplane landing">
+					<h5>
+					Traveling
+					</h5>
+				</div>
+				<div class="col-sm-4">
+					<img src="./images/cinema.jpg" alt="Person in a cinema">
+					<h5>
+					Cinema
+					</h5>
+				</div>
+			</div>
+			<br>
+			<!--Some pictures to let the people know who is Felipe-->
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>
+					Some Postals!
+					</h3>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="polaroid">
+						<img src="./images/foto1.jpeg" alt="Felipe Escobar in Medellín" style="width:100%">
+						<div class="container">
+							<p>Me in Medellín</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="polaroid">
+						<img src="./images/foto3.jpeg" alt="Felipe's dog" style="width:100%">
+						<div class="container">
+							<p>My cute dog</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="polaroid">
+						<img src="./images/foto2.jpeg" alt="Felipe Escobar in 'La piedra del Peñol'" style="width:100%">
+						<div class="container">
+							<p>Me in 'La piedra del Peñol'</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+		</div>
+		<!--Footer-->
+		<footer>
+			<div class="footer text-center">
+				Felipe Escobar
+			</div>
+		</footer>
+	</body>
+</html>

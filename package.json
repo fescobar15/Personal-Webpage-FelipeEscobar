@@ -1,0 +1,14 @@
+{
+  "name": "proyectoweb",
+  "version": "1.0.0",
+  "description": "Personal Webpage Felipe Escobar",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Escobar Avila",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.2.0"
+  }
+}
